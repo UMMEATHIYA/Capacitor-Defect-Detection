@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Burnt gasket', 'Damaged Pin', 'No Defects', 'Scruffy Gasket']
+
+roboflow:
+  workspace: davi-ahilya-institure
+  project: capacitor-defect-identification
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/davi-ahilya-institure/capacitor-defect-identification/dataset/1
